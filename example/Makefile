@@ -1,5 +1,5 @@
 build:
-	cc ../src/septarr.c ./example.c -o main
+	cc -Wall ../src/septarr.c ./example.c -o main
 
 run: build
 	./main

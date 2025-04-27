@@ -1,7 +1,7 @@
 build:
 	cc ../src/septarr.c ./example.c -o main
 
-run: compile
+run: build
 	./main
 
 clean:
